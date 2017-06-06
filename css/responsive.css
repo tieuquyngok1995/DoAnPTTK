@@ -1,0 +1,50 @@
+x@charset "utf-8";
+/* CSS Document */
+
+/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px){
+    #wrapper{ width: 100%;}
+	body{ 
+	background: #00F; 
+	color: #fff;
+	}
+
+}
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px){
+    #content_left{ width: 100%; float: none;}
+    #content_right { width: 100%;float: none; padding-left: 0px;}
+	body{ 
+	background: #F33; 
+	color: #fff;
+	}
+
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px){
+    body{ 
+	background: #360; 
+	color: #fff;
+	}
+
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px){
+	body{ 
+	background: #C36; 
+	color: #fff;
+	font-size:50%;
+	}
+	#menu #allmenu {
+	background: #FFF;
+}
+  
+}
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px){
+ 	wrapper{
+		font-size:70%;
+	}
+	
+		
+}
